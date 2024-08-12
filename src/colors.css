@@ -1,0 +1,18 @@
+/* Define color variables */
+:root {
+  --c1: #F8EDE3; 
+  --c2: #DFD3C3; 
+  --c3: #D0B8A8;
+}
+
+.c-bg-light {
+  background-color: var(--c1);
+}
+
+.c-bg-dark {
+  background-color: var(--c2);
+}
+
+.c-bg-darker{
+  background-color: var(--c3);
+}

@@ -1,0 +1,33 @@
+.wrapper{
+    position:fixed;
+    width: 100%;
+    margin-top: 50px;
+    background-color: bisque;
+    min-height: fit-content;
+    overflow-y: auto;
+}
+
+
+.c-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    >article{
+        >a{
+            >svg{
+        height: 3rem;
+        width: 3rem;
+            transition: transform 0.2s ease, color 0.2s ease;
+
+        &:hover{
+            color: #ea1919;
+            transform: scale(1.2);
+        }
+
+        }
+        
+    }
+
+    }
+    
+}
